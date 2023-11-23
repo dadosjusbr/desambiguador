@@ -27,8 +27,8 @@ for orgao, mes, ano, valor_rubrica, valor_total in tqdm(valor_rubrica.to_numpy()
 
     # A modificação inicial deve utilizar essa query, criando também o campo 'outras'
     # Após isso, deverá ser utilizada a segunda query, apenas atualizando o valor deste campo.
-    query = f'''UPDATE teste_col SET resumo = jsonb_set(resumo, '{{{key}}}', '{valor_rubrica}', TRUE) || jsonb_set(resumo, '{{outras}}', '{valor_total}', TRUE) WHERE id_orgao = '{orgao}' and mes = {mes} and ano = {ano} and atual = true'''
-    # query = f'''UPDATE teste_col SET resumo = jsonb_set(resumo, '{{{key}}}', '{valor_rubrica}', TRUE) || jsonb_set(resumo, '{{outras}}', to_jsonb((resumo->>'outras')::numeric - {valor_rubrica}), FALSE) WHERE id_orgao = '{orgao}' and mes = {mes} and ano = {ano} and atual = true'''
+    query = f'''UPDATE coletas SET resumo = jsonb_set(resumo, '{{{key}}}', '{valor_rubrica}', TRUE) || jsonb_set(resumo, '{{outras}}', '{valor_total}', TRUE) WHERE id_orgao = '{orgao}' and mes = {mes} and ano = {ano} and atual = true'''
+    # query = f'''UPDATE coletas SET resumo = jsonb_set(resumo, '{{{key}}}', '{valor_rubrica}', TRUE) || jsonb_set(resumo, '{{outras}}', to_jsonb((resumo->>'outras')::numeric - {valor_rubrica}), FALSE) WHERE id_orgao = '{orgao}' and mes = {mes} and ano = {ano} and atual = true'''
 
     run_db(conn, query)
 
