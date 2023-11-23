@@ -14,8 +14,8 @@ with open("rubricas.json", encoding='utf-8') as meu_json:
 # A modificação inicial deve utilizar essa query, visto que também criará o campo 'outras'
 # Após isso, deverá ser utilizada a segunda query, calculando apenas o valor agregado da nova rubrica.
 # O campo 'outras' não considera o valor de rubricas da categoria "descontos" - tipo = 'D'
-query = f"SELECT orgao, mes, ano, SUM(CASE WHEN item_sanitizado IN {values} THEN valor ELSE 0 END) AS valor_rubrica, sum(CASE WHEN tipo != 'D' THEN valor ELSE 0 END) as valor_total from remuneracoes r where orgao = 'cnj' and mes = 1 and ano = 2018 group by (orgao, mes, ano)"
-# query = f"SELECT orgao, mes, ano, SUM(CASE WHEN item_sanitizado IN {values} THEN valor ELSE 0 END) AS valor_rubrica from remuneracoes r where orgao = 'cnj' and mes = 1 and ano = 2018 group by (orgao, mes, ano)"
+query = f"SELECT orgao, mes, ano, SUM(CASE WHEN item_sanitizado IN {values} THEN valor ELSE 0 END) AS valor_rubrica, sum(CASE WHEN tipo != 'D' THEN valor ELSE 0 END) as valor_total from remuneracoes r group by (orgao, mes, ano)"
+# query = f"SELECT orgao, mes, ano, SUM(valor) AS valor_rubrica from remuneracoes r WHERE item_sanitizado IN {values} group by (orgao, mes, ano)"
 
 # Pegando os valores agregados por rubrica para cada órgão, mês e ano.
 valor_rubrica = consultar_db(conn, query)
