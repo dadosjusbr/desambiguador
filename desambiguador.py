@@ -3,6 +3,7 @@ from difflib import get_close_matches
 from postgres import *
 import pandas as pd
 import json
+from tqdm import tqdm
 
 # Fazendo a conexão com o banco
 conn = get_connection()
@@ -17,7 +18,7 @@ lista_rubricas = ["auxilio-alimentacao"]
 grupos_rubricas = {}
 
 # Usando o método get_close_matches para desambiguar as rubricas, com precisão de 70%
-for rubrica in lista_rubricas: 
+for rubrica in tqdm(lista_rubricas): 
     grupos_rubricas[rubrica] = get_close_matches(rubrica, rubricas, n=len(rubricas), cutoff=0.7)
 
 # Cria arquivo .json com a lista de rubricas desambiguadas
