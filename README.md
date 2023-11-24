@@ -14,6 +14,4 @@ Para isso, faz-se necessário editar a lista de rubricas `(desambiguador.py, lin
 lista_rubricas = ["auxilio-alimentacao"]
 ```
 
-A nova rubrica será adicionada ao arquivo `rubricas.json` com uma lista de rubricas semelhantes.
-
-Após o arquivo ser atualizado, basta rodar o script `atualiza-passado.py`. O script pega a última rubrica adicionada ao arquivo json, agrega os valores por rubrica e atualiza a coluna `resumo` no banco de dados com a nova rubrica.
+A nova rubrica será adicionada ao arquivo `rubricas.json` com uma lista de rubricas semelhantes após execução do script.
