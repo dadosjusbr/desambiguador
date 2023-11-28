@@ -13,12 +13,13 @@ rubricas = consultar_db(conn, "SELECT DISTINCT item_sanitizado FROM remuneracoes
 rubricas = pd.DataFrame(rubricas, columns=["item"]).item.values
 
 # Lista de rubricas a serem agrupadas
-# Essa lista deverá ser editada ao desambiguar uma nova rubrica
-lista_rubricas = ["auxilio-alimentacao"]
+# Esse arquivo deverá ser editada ao desambiguar uma nova rubrica
+lista_rubricas = open("lista_rubricas.txt", "r").readlines()
 grupos_rubricas = {}
 
 # Usando o método get_close_matches para desambiguar as rubricas, com precisão de 70%
-for rubrica in tqdm(lista_rubricas): 
+for rubrica in tqdm(lista_rubricas):
+    rubrica = rubrica.rstrip("\n")
     grupos_rubricas[rubrica] = get_close_matches(rubrica, rubricas, n=len(rubricas), cutoff=0.7)
 
 # Cria arquivo .json com a lista de rubricas desambiguadas
