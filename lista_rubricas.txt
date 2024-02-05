@@ -1,2 +1,3 @@
 auxilio-alimentacao
 licenca-premio;indenizacao-licenca-premio;licenca-premio-lei-estadual
+indenizacao-de-ferias;ferias;ferias-indenizadas
