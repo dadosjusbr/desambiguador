@@ -188,5 +188,11 @@
         "indenizacao de ferias",
         "indenizacao ferias",
         "indenizacoes de ferias"
+    ],
+    "gratificacao-natalina": [
+        "acerto de gratificacao natalina",
+        "antecipacao de gratificacao natalina",
+        "devol irrf gratificacao natalina",
+        "gratificacao natalina"
     ]
 }
