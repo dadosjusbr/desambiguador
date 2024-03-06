@@ -187,12 +187,20 @@
         "ferias indenizatorias",
         "indenizacao de ferias",
         "indenizacao ferias",
-        "indenizacoes de ferias"
+        "indenizacoes de ferias",
+        "indenizacoes de ferias acervo"
     ],
     "gratificacao-natalina": [
         "acerto de gratificacao natalina",
         "antecipacao de gratificacao natalina",
         "devol irrf gratificacao natalina",
         "gratificacao natalina"
+    ],
+    "licenca-compensatoria": [
+        "folgas compensatorias",
+        "inden folga compensatoria",
+        "indenizacao licenca compensatoria",
+        "licenca compensatoria",
+        "licenca compensatoria pecunia"
     ]
 }
