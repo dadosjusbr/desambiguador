@@ -3,3 +3,4 @@ licenca-premio;indenizacao-licenca-premio;licenca-premio-lei-estadual
 indenizacao-de-ferias;ferias;ferias-indenizadas
 gratificacao-natalina
 licenca-compensatoria
+auxilio-saude;aux-saude;aux-saude-magis-exerc-anterior%%;diferenca-auxilio-saude;aux-saude-devolucao
