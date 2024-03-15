@@ -12,9 +12,17 @@ Vale ressaltar que o desambiguador ainda não está pronto para ser utilizado se
 
 Para isso, faz-se necessário editar a lista de rubricas `lista_rubricas`, adicionando a nova rubrica a ser desambiguada no final do arquivo.
 
-Caso seja necessário mais de um termo para desambiguar uma determinada rubrica, basta adicionar os termos semelhantes na mesma linha separados por ponto e vírgula. Ex.:
+- Caso seja necessário mais de um termo para desambiguar uma determinada rubrica, basta adicionar os termos semelhantes na mesma linha separados por ponto e vírgula. Ex.:
+  
 ```
 licenca-premio;indenizacao-licenca-premio
+```
+
+- Caso encontre um problema de repetição de rubrica, basta adicionar **%** até a quantidade de repetições necessárias. Ex.:
+
+```
+aux-saude-magis-exerc-anterior%%
+output: "aux saude magis exerc anterior aux saude magis exerc anterior aux saude magis exerc anterior"
 ```
 
 A nova rubrica será adicionada ao arquivo `rubricas.json` com uma lista de rubricas semelhantes após execução do script.

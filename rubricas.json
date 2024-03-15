@@ -202,5 +202,19 @@
         "indenizacao licenca compensatoria",
         "licenca compensatoria",
         "licenca compensatoria pecunia"
+    ],
+    "auxilio-saude": [
+        "0272aux saude",
+        "aux saude devolucao",
+        "aux saude dif",
+        "aux saude magis exerc anterior",
+        "aux saude magis exerc anterior aux saude magis exerc anterior",
+        "aux saude magis exerc anterior aux saude magis exerc anterior aux saude magis exerc anterior",
+        "auxilio saude",
+        "auxiliosaude",
+        "dif aux saude",
+        "difauxiliosaude",
+        "diferenca auxilio saude",
+        "saude"
     ]
 }
