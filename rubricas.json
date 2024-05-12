@@ -181,26 +181,30 @@
         "lincenca premio"
     ],
     "indenizacao-de-ferias": [
-        "antecipacao de ferias",
-        "ferias",
+        "abono pecuniario ferias",
         "ferias indenizadas",
         "ferias indenizatorias",
         "indenizacao de ferias",
         "indenizacao ferias",
         "indenizacoes de ferias",
-        "indenizacoes de ferias acervo"
+        "indenizacoes de ferias acervo",
+        "pecunia de ferias",
+        "pecunia ferias",
+        "pensao indenizacao de ferias"
     ],
     "gratificacao-natalina": [
         "acerto de gratificacao natalina",
         "antecipacao de gratificacao natalina",
         "devol irrf gratificacao natalina",
-        "gratificacao natalina"
+        "gratificacao natalina",
+        "gratificacao natalina e antecipacao"
     ],
     "licenca-compensatoria": [
         "folgas compensatorias",
         "inden folga compensatoria",
         "indenizacao licenca compensatoria",
         "licenca compensatoria",
+        "licenca compensatoria indenizada",
         "licenca compensatoria pecunia"
     ],
     "auxilio-saude": [
@@ -216,5 +220,15 @@
         "difauxiliosaude",
         "diferenca auxilio saude",
         "saude"
+    ],
+    "ferias": [
+        "13 de ferias",
+        "abono constitucional de 13 de ferias",
+        "antecipacao de ferias",
+        "ferias",
+        "ferias 13 constitucional",
+        "ferias constitucional",
+        "ferias terco constitucional",
+        "ferias13 constitucional"
     ]
 }

@@ -1,6 +1,7 @@
 auxilio-alimentacao
 licenca-premio;indenizacao-licenca-premio;licenca-premio-lei-estadual
-indenizacao-de-ferias;ferias;ferias-indenizadas
+indenizacao-de-ferias;ferias-indenizadas;pecunia-ferias
 gratificacao-natalina
 licenca-compensatoria
 auxilio-saude;aux-saude;aux-saude-magis-exerc-anterior%%;diferenca-auxilio-saude;aux-saude-devolucao
+ferias;abono-constitucional-de-ferias;13-de-ferias;ferias-13-constitucional;antecipacao-ferias
