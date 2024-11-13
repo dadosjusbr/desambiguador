@@ -2,6 +2,6 @@ auxilio-alimentacao
 licenca-premio;indenizacao-licenca-premio;licenca-premio-lei-estadual;licenca-premio-indenizada;licenca-premio-pecunia;ferias-premio;conversao-licenca-premio;licenca-premio-exerc-anterior;licenca-premio%;licpremio-pecunia
 indenizacao-de-ferias;ferias-indenizadas;pecunia-ferias;indenizacao-ferias-exercicio
 gratificacao-natalina
-licenca-compensatoria;indenizacao-licenca-compensatoria%;licenca-compensatoria-magistrados;lic-compensatoria
+licenca-compensatoria;indenizacao-licenca-compensatoria%;licenca-compensatoria-magistrados;lic-compensatoria;compensatoria-indenizada;lic-comp
 auxilio-saude;aux-saude;aux-saude-magis-exerc-anterior%%;diferenca-auxilio-saude;aux-saude-devolucao;ressarcimento-auxilio-saude;reembolso-medico;auxilio-saude-magistrados
 ferias;abono-constitucional-de-ferias;13-de-ferias;ferias-13-constitucional;antecipacao-ferias
