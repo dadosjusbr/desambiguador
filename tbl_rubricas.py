@@ -14,11 +14,11 @@ resultado_micro = dict(zip(rubricas['rubrica'], rubricas['desambiguacao_micro'])
 
 # Cria arquivo .json com a lista de desambiguação micro
 with open("desambiguacao_micro.json", "w") as json_file:
-    json.dump(resultado_micro, json_file, indent=4)
+    json.dump(resultado_micro, json_file, indent=4, sort_keys=True)
    
 # Agrupando as rubricas por desambiguação macro 
 resultado_macro = dict(zip(rubricas['rubrica'], rubricas['desambiguacao_macro']))
 
 # Cria arquivo .json com a lista de desambiguação macro
 with open("desambiguacao_macro.json", "w") as json_file:
-    json.dump(resultado_macro, json_file, indent=4)
+    json.dump(resultado_macro, json_file, indent=4, sort_keys=True)
